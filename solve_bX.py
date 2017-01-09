@@ -14,5 +14,4 @@ def loop(p,f,x):
 fonction exists
 """
 def exists(p,l):
-    liste = map(p,l)
-    filter(liste==True,liste)
+    return True if len(filter(p,l))!=0 else False
